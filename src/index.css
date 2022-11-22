@@ -66,3 +66,20 @@ code {
   .footer {
     margin: 20px;
   }
+
+  .vegetable {
+    width: 200px;
+  }
+
+  .vegetables_list {
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+  }
+
+  .vegetables_item {
+    border: 4px solid #bbe6f3;
+    border-radius: 20px;
+    margin: 10px;
+  }

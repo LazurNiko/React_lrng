@@ -3,6 +3,8 @@ import { Header } from './components/Header/';
 import { Footer } from './components/Footer/';
 import { Message } from './components/Message/';
 import { Product } from './components/Product/';
+import { Vegetables } from './components/Vegetables';
+
 import './App.css';
 
 export function App() {
@@ -39,7 +41,9 @@ export function App() {
           price={100} /><Product
           title="Apple Juice"
           description="Fresh apple juice from our gardens"
-          price={50} /><Footer date={new Date().getFullYear()} 
+          price={50} />
+          <Vegetables product={Vegetables}/>
+          <Footer date={new Date().getFullYear()} 
           /></>) : (<h1>
             Please log in!
           </h1>
